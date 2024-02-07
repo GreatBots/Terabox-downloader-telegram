@@ -12,7 +12,7 @@ bot.start(async ctx => {
         `👋🏻 Hi ${ctx.message.from.first_name},\n\nJust sent me any terabox link and I will Download the file from Terabox and sent to you.\n\nSend any terabox link to download.`,
         Markup.inlineKeyboard([
             Markup.button.url("Updates", "https://t.me/oddprojects"),
-            Markup.button.url("Updates", "https://t.me/oddchat")
+            Markup.button.url("Support", "https://t.me/oddchats")
         ])
     );
 });
