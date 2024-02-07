@@ -9,10 +9,10 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 
 bot.start(async ctx => {
     ctx.reply(
-        `Hi ${ctx.message.from.first_name},\n\nI can Download Files from Terabox.\n\nMade with ❤️ by @Mohd_arman_idrisi01\n\nSend any terabox link to download.`,
+        `👋🏻 Hi ${ctx.message.from.first_name},\n\nJust sent me any terabox link and I will Download the file from Terabox and sent to you.\n\nSend any terabox link to download.`,
         Markup.inlineKeyboard([
-            Markup.button.url(" Channel", "https://t.me/botcodes123"),
-            Markup.button.url("Report bug", "https://t.me/Armanidrisi_bot")
+            Markup.button.url("Updates", "https://t.me/oddprojects"),
+            Markup.button.url("Updates", "https://t.me/oddchat")
         ])
     );
 });
